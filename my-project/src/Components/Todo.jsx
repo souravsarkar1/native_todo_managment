@@ -8,7 +8,7 @@ const Todo = () => {
 
     const handleInputTodos = () => {
         if (!title) {
-            alert("Please select a title");
+            alert("Please select a valid Todo");
             return ;
         }
         if (title.trim() !== '') {
